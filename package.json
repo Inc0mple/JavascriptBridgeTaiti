@@ -1,0 +1,24 @@
+{
+  "name": "javascriptbridgetaiti",
+  "version": "1.0.0",
+  "description": "Project to create a Multiplayer Online Browser game of Bridge and Taiti.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inc0mple/JavascriptBridgeTaiti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inc0mple/JavascriptBridgeTaiti/issues"
+  },
+  "homepage": "https://github.com/Inc0mple/JavascriptBridgeTaiti#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.0.5"
+  }
+}
