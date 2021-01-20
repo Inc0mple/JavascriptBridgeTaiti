@@ -24,5 +24,5 @@
 - [Multiplayer Snake game. Might be useful for learning how to implement real-time features](https://www.youtube.com/watch?v=ppcBIHv_ZPs)
 - [Building Multiplayer Games with Node.js and Socket.IO (Contains info on socket.io rooms as well)](https://modernweb.com/building-multiplayer-games-with-node-js-and-socket-io/)
 - [JSCardDealer. Contains utilities for creating web-based card games.](https://github.com/simplicitylab/JSCardDealer)
-- [Finding list of of users in room](https://stackoverflow.com/questions/52937053/socket-io-rooms-names-and-number-of-users-inside-specific-room)
+- [Finding list of users in room](https://stackoverflow.com/questions/52937053/socket-io-rooms-names-and-number-of-users-inside-specific-room)
 

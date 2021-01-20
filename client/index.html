@@ -5,11 +5,16 @@
   </head>
   <body >
   Body stuff 1
-  <input type="button" value="Create Room">
-    <div>
-      <input type="text">
-      <input type="button" value="Join Room">
-    </div>
+  <form class="form" id="createRoom" action="/exercise/new-user" method="get">
+    <h3 class="input-details">Create a New Room</h3>
+    <input id="createInput" type="text" name="username" placeholder="Room Name">
+    <input type="submit" value="Create Room">
+  </form>
+  <form class="form" id="joinRoom" action="/exercise/new-user" method="get">
+    <h3 class="input-details">Join an existing Room</h3>
+    <input id="joinInput" type="text" name="username" placeholder="Room Name">
+    <input type="submit" value="Join Room">
+  </form>
     <div>
       <input type="button" value="Refresh">
       <!-- This ought to fetch data from server and display available rooms below-->
@@ -28,13 +33,13 @@
         <tr>
           <td>Eve</td>
           <td>abc123</td>
-          <td>94</td>
+          <td>2/4</td>
           <td><a href="">Join</a></td>
         </tr>
         <tr>
           <td>lets play</td>
           <td>abc123</td>
-          <td>80</td>
+          <td>1/4</td>
           <td><a href="">Join</a></td>
         </tr>
       </table>
@@ -44,5 +49,8 @@
     </div>
 
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="script.js"></script>
+  
 
 </html>
